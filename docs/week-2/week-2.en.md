@@ -46,15 +46,15 @@ math: katex
 
 <!-- _backgroundColor: aquq -->
 
-<!-- _color: orange -->
+<!-- _color: blue -->
 
 <!-- paginate: false -->
 
-## Sample Course Name
+## Algorithms And Programming
 
-### Week-2 (Sample Course Module Name)
+### Week-2 (Git)
 
-#### Spring Semester, 20XX-20XX
+#### Spring Semester, 2022-2023
 
 Download [DOC](week-2.en.md_doc.pdf), [SLIDE](week-2.en.md_slide.pdf), [PPTX](week-2.en.md_slide.pptx)
 
@@ -64,167 +64,79 @@ Download [DOC](week-2.en.md_doc.pdf), [SLIDE](week-2.en.md_slide.pdf), [PPTX](we
 
 <!-- paginate: true -->
 
-### Outline
+### Git
 
-- Sample Outline
-- Sample Outline
-- Sample Outline
-- Sample Outline
+- How to use Git?
 
 ---
 
-## **Sample Topic**
+## **How to use Git?**
 
 ---
 
-### Sample Topic
+### Git
 
-- **What is Lorem Ipsum?**
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-  - when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, 
-    - but also the leap into electronic typesetting, remaining essentially unchanged. 
-      - It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. 
-
----
-
-### Sample Images-1
-
-- **What is Lorem Ipsum?**
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-
-![center h:400px](assets/sample-1.png)
+- **Here is a basic overview of how Git works**
+1.Create a "repository" (project) with a git hosting tool (like Bitbucket)
+2.Copy (or clone) the repository to your local machine
+3.Add a file to your local repo and "commit" (save) the changes
+4."Push" your changes to your main branch
+5.Make a change to your file with a git hosting tool and commit
+6."Pull" the changes to your local machine
+7.Create a "branch" (version), make a change, commit the change
+8.Open a "pull request" (propose changes to the main branch)
+9."Merge" your branch to the main branch
 
 ---
 
-### Sample Images-2
+### Git
 
-- **What is Lorem Ipsum?**
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+- **Sample git notation**
+A simple modeled version of the git shown in this image.
 
-![bg right:50% h:400px](assets/sample-1.png)
-
----
-
-### Sample Images-3
-
-- **What is Lorem Ipsum?**
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-
-![bg left:50% h:400px](assets/sample-1.png)
+![bg right:50% h:300px](assets/git4.png)
 
 ---
 
-### Sample Images-4
+### Git
 
-- **What is Lorem Ipsum?**
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+- **Simple "git init" notation**
 
-![bg h:400px](assets/sample-1.png)
+The git init command creates a new Git repository. It can be used to convert an existing, unversioned project to a Git repository or initialize a new, empty repository.
 
----
-
-### Sample Images-5
-
-- **What is Lorem Ipsum?**
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-
-![bg left:50% h:800px](assets/sample-1.png)
-![bg left:50% h:800px](assets/sample-2.png)
+![bg right:50% center h:300px](assets/git3.png)
 
 ---
 
-### Sample Images-6
+### Git
 
-- **What is Lorem Ipsum?**
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+- **How to use "git add"**
+Here you see using a git add from the command line.
 
-![bg left:50% h:300px](assets/sample-1.png)
-![bg left:50% h:500px](assets/sample-2.png)
-
----
-
-###  Latex Sample-1
-
-$$
-\begin{align}
-  \begin{aligned}
-  \text{compute } m[i,i+1] \\
-  \underbrace{ \{ m[1,2],m[2,3], \dots ,m[n-1,n]\} }_{(n-1) \text{ values}}
-  \end{aligned}
-    & \begin{cases}
-    & \ell=2  \\
-    & \text{for } i=1 \text{ to } n-1 \text{ do } \\
-    & \quad m[i,i+1]=\infty \\
-    & \quad \quad \text{for } k=i \text{ to } i \text{ do } \\
-    &  \quad \quad \quad \vdots
-    \end{cases} \\
-  \begin{aligned}
-  \text{compute } m[i,i+2] \\
-  \underbrace{ \{ m[1,3],m[2,4], \dots ,m[n-2,n]\} }_{(n-2) \text{ values}}
-  \end{aligned}
-    & \begin{cases}
-    & \ell=3  \\
-    & \text{for } i=1 \text{ to } n-2 \text{ do } \\
-    & \quad m[i,i+2]=\infty \\
-    & \quad \quad \text{for } k=i \text{ to } i+1 \text{ do } \\
-    & \quad \quad \quad \vdots
-    \end{cases} \\
-  \begin{aligned}
-  \text{compute } m[i,i+3] \\
-  \underbrace{ \{ m[1,4],m[2,5], \dots ,m[n-3,n]\} }_{(n-3) \text{ values}}
-    \end{aligned}
-    & \begin{cases}
-    & \ell=4  \\
-    & \text{for } i=1 \text{ to } n-3 \text{ do } \\
-    & \quad m[i,i+3]=\infty \\
-    & \quad \quad \text{for } k=i \text{ to } i+2 \text{ do } \\
-    & \quad \quad \quad \vdots
-    \end{cases}
-\end{align}
-$$
+![bg left:60% h:350px](assets/git5.png)
 
 ---
 
-### Latex Sample-2
+### Git
 
-$$
-\begin{align*}
-& \text{OPTIMAL-BST-COST} (p, n) \\
-& \quad \text{for} \ i \leftarrow 1 \ \text{to} \ n \ \text{do} \\
-& \qquad c[i, i-1] \leftarrow 0 \\
-& \qquad c[i, i] \leftarrow p[i] \\
-& \qquad R[i, j] \leftarrow i \\
-& \quad PS[1] \leftarrow p[1] \Longleftarrow PS[i] \rightarrow  \text{ prefix-sum } (i): \text{Sum of all} \ p[j] \ \text{values for}  \ j \leq i
- \\
-& \quad \text{for} \ i \leftarrow 2 \ \text{to} \ n \ \text{do} \\
-& \qquad PS[i] \leftarrow p[i] + PS[i-1]  \Longleftarrow  \text{compute the prefix sum} \\
-& \quad \text{for} \ d \leftarrow 1 \ \text{to} \ n−1 \ \text{do}   \Longleftarrow  \text{BSTs with} \ d+1 \ \text{consecutive keys} \\
-& \qquad \text{for} \  i \leftarrow 1 \ \text{to} \ n – d \ \text{do} \\
-& \qquad \quad j \leftarrow i + d \\
-& \qquad \quad c[i, j] \leftarrow \infty \\
-& \qquad \quad \text{for} \ r \leftarrow i \ \text{to} \ j \ \text{do} \\
-& \qquad \qquad q \leftarrow min\{c[i,r-1] + c[r+1, j]\} +  PS[j] – PS[i-1]\} \\
-& \qquad \qquad \text{if} \ q < c[i, j] \ \text{then} \\
-& \qquad \qquad \quad c[i, j]  \leftarrow q \\
-& \qquad \qquad \quad R[i, j] \leftarrow r \\
-& \quad \text{return} \ c[1, n], R
-\end{align*}
-$$
+- **How to use "git commit"**
+Here you see using a git commit from the command line.
+
+![bg left:60% h:350px](assets/git6.png)
 
 ---
 
-**TODO** UPDATE CONTENT FOR YOUR COURSE NOTES
+**TODO** DO MORE LEARN
 
 --- 
 
 ## References
 
-- https://avesis.erdogan.edu.tr/ugur.coruh
-- https://www.linkedin.com/in/ugurcoruh/
-- https://www.hindawi.com/journals/scn/2018/6563089/ 
-- https://dl.acm.org/doi/abs/10.1145/3410352.3410836
-- https://www.sciencedirect.com/science/article/abs/pii/S2214212621002623 
-
+- https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud
+- https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-init
+- https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud
+- https://medium.com/swlh/an-introduction-to-git-and-github-22ecb4cb1256
+- https://git-scm.com/
 
 ---
 
